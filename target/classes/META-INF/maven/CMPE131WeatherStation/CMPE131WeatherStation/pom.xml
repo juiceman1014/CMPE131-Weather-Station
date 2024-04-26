@@ -54,10 +54,10 @@
                 <version>3.0.0-M7</version>
                 <configuration>
                     <includes>
-                        <include>*/Test*.java</include>
-                        <include>*/*Test.java</include>
-                        <include>*/*Tests.java</include>
-                        <include>*/*TestCase.java</include>
+                        <include>**/Test*.java</include>
+                        <include>**/*Test.java</include>
+                        <include>**/*Tests.java</include>
+                        <include>**/*TestCase.java</include>
                     </includes>
                 </configuration>
             </plugin>
